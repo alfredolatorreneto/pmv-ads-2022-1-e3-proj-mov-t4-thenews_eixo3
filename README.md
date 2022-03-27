@@ -12,7 +12,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 * Alfredo Latorre
 * Denison Amaral
-* Nome completo do aluno 3
+* Mateus Vitorino
 * Nome completo do aluno 4
 
 ## Orientador
