@@ -1,4 +1,4 @@
-# DESENVOLVIMENTO DE UMA APLICAÇÃO MÓVEL EM UM AMBIENTE DE NEGÓCIO - The News
+# DESENVOLVIMENTO DE UMA APLICAÇÃO MÓVEL EM UM AMBIENTE DE NEGÓCIO - THE NEWS
 
 `ANÁLISE DE DESENVOLVIMENTO DE SISTEMA`
 
@@ -6,7 +6,7 @@
 
 `SEMESTRE`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+DESENVOLVIMENTO DE UMA APLICAÇÃO MÓVEL EM UM AMBIENTE DE NEGÓCIO
 
 ## Integrantes
 
