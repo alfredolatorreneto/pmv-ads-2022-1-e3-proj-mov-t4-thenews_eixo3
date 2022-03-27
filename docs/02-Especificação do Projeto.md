@@ -2,25 +2,204 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+Para que o projeto em desenvolvimento seja efetivo e resolutivo quanto às demandas do usuário, foi levantado, por meio de entrevistas realizadas por uma integrante do grupo com possíveis usuários da aplicação, os desejos e frustrações desses. Esses dados coletados foram explicitados na forma de personas para auxiliar-nos com um melhor desenho do projeto.
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+A partir das entrevistas, foram definidas as personas representadas a seguir:  
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+ 
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+Miguel Dias 
+
+Idade: 26 
+
+Descrição: Estudante de Jornalismo.   
+
+Plataformas e apps utilizados: 
+
+Instagram 
+
+Netflix 
+
+Amazon Prime 
+
+Uber 
+
+Ifood 
+
+Spotify 
+
+Motivações 
+
+Divulgar no bairro as notícias mais relevantes para os moradores 
+
+Divulgar vagas de emprego e oportunidades de negócio na região. 
+
+Frustrações 
+
+Dificuldade em encontrar notícias, novidades e oportunidades em sua região 
+
+Hobbies 
+
+Filmes e séries 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+Maura Regina 
+
+Idade: 40 
+
+Ocupação: Funcionária Pública.  
+
+Plataformas e apps utilizados: 
+
+Instagram 
+
+Whatsapp  
+
+Motivações 
+
+Utilizar o aplicativo para encontrar prestadores de serviço no meu bairro. Ex: doméstica, passeador com cães. 
+
+ 
+ 
+
+Frustrações 
+
+Dificuldade em encontrar prestadores de serviços perto da minha residência.  
+
+Hobbies 
+
+Filmes e séries 
+
+Redes sociais 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+Catarina  
+
+Idade: 43 
+
+Ocupação: Proprietária de loja de roupas 
+
+Plataformas e apps utilizados:  
+
+Whatsapp  
+
+Instagram 
+
+ 
+ 
+ 
+
+Motivações 
+
+Utilizar o aplicativo para divulgar ofertas e promoções da minha loja  
+ 
+
+Frustrações 
+
+Apenas a panfletagem no bairro não atinge a todos os moradores de forma efetiva. 
+
+Hobbies 
+
+Filmes e séries 
+
+Redes sociais 
+
+ 
+ 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Carla Figueira  
+
+Idade: 30 
+
+Ocupação: Doceira  
+
+Plataformas e apps utilizados: 
+
+Instagram 
+
+Whatsapp  
+
+ 
+ 
+
+Motivações 
+
+Utilizar o aplicativo para divulgar o meu trabalho; 
+
+Utilizar o aplicativo no primeiro contato com potenciais clientes 
+ 
+
+Frustrações 
+
+Dificuldade de divulgação do meu trabalho na minha região, devido no momento não conseguir arcar com o custo da panfletagem. 
+
+Hobbies 
+
+Redes sociais 
+
+Ifood 
+
+ 
+
+ 
+ 
+
+
 
 ## Histórias de Usuários
 
