@@ -82,13 +82,5 @@
 |-------------------------|-----------------------------------------|
 |Requisitos Associados    | RF-07                                   |
 |Objetivo do teste        | Usuários filtrar o tipo de noticia      |
-|Passos                   | 1) Acessar o aplicativo. 
-
-2) Realizar o login como comerciante. 
-
-3) Clicar no menu “NEWS” 
-
-4) Clicar no ícone “FILTRAR” 
-
-5) Selecionar os filtros: promoção, evento ou utilidade pública.    |
+|Passos                   | 1) Acessar o aplicativo. 2) Realizar o login como comerciante. 3) Clicar no menu “NEWS” 4) Clicar no ícone “FILTRAR” 5) Selecionar os filtros: promoção, evento ou utilidade pública.    |
 |Critérios de Êxito       | As mensagens devem ser filtradas e selecionadas pelo tipo de filtro escolhido.    |
