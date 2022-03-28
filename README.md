@@ -1,23 +1,24 @@
 # TÍTULO DO PROJETO
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Desenvolvimento de uma Aplicação Móvel em um Ambiente de Negócio`
 
-`SEMESTRE`
+`Eixo 3`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O foco do projeto e melhorar a forma de comunicação e propagação de noticias de pessoas que vivem no mesmo bairro. A ferramenta proposta tem um design minimalista o que facilita na navegação e facilidade no uso e consequentemente na facilidade de propagação de noticias. Com a criação de um aplicativo móvel hiper local, comércios e serviços podem divulgar seus estabelecimentos, assim moradores do bairro e comerciantes podem se beneficiar de uma gama maior de serviços oferecidos.
+
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Alfredo Latorre
+* Denison Amaral
+* Mateus Vitorino Guimarães
+* Natália Gatti
 
 ## Orientador
 
-* Nome completo do professor 1
+* Mateus Curcino de Lima
 
 ## Instruções de utilização
 
