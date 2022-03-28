@@ -79,30 +79,22 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Usuário deve poder realizar um cadastro e login no aplicativo  | ALTA | 
+|RF-002| Usuário deve poder visualizar as últimas mensagens/ posts na home page.   | ALTA |
+|RF-003| O Comerciante deve poder postar novidades e ofertas do seu estabelecimento.  | ALTA | 
+|RF-004| Usuário deve poder inserir e trocar mensagens com o comerciante via comentários da mensagem.   | ALTA | 
+|RF-005| Usuários podem marcar como fakenews um post.   | MÉDIA | 
+|RF-006| Usuário poderá filtrar por bairro as notícias.   | MÉDIA | 
+|RF-007| Usuário poderá filtrar por tipo de notícia: promoção, evento, utilidade pública.   | MÉDIA | 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| O aplicativo deverá ser thinclient.  | ALTA | 
+|RNF-002| O aplicativo deverá ter uma fonte padrão para todas as escritas, com alterações apenas no tamanho. |  ALTA | 
+|RNF-003| O aplicativo deve ser compatível com os principais dispositivos móveis do mercado.   | ALTA | 
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
@@ -121,29 +113,20 @@ Enumere as restrições à sua solução. Lembre-se de que as restrições geral
 
 ## Diagrama de Casos de Uso
 
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
-
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
-
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
+![Diagrama de Entidade Relacionamento](img/Diagrama_casoDeUso.jpg)
 
 # Matriz de Rastreabilidade
 
-A matriz de rastreabilidade é uma ferramenta usada para facilitar a visualização dos relacionamento entre requisitos e outros artefatos ou objetos, permitindo a rastreabilidade entre os requisitos e os objetivos de negócio. 
-
-A matriz deve contemplar todos os elementos relevantes que fazem parte do sistema, conforme a figura meramente ilustrativa apresentada a seguir.
-
-![Exemplo de matriz de rastreabilidade](img/02-matriz-rastreabilidade.png)
-
-> **Links Úteis**:
-> - [Artigo Engenharia de Software 13 - Rastreabilidade](https://www.devmedia.com.br/artigo-engenharia-de-software-13-rastreabilidade/12822/)
-> - [Verificação da rastreabilidade de requisitos usando a integração do IBM Rational RequisitePro e do IBM ClearQuest Test Manager](https://developer.ibm.com/br/tutorials/requirementstraceabilityverificationusingrrpandcctm/)
-> - [IBM Engineering Lifecycle Optimization – Publishing](https://www.ibm.com/br-pt/products/engineering-lifecycle-optimization/publishing/)
+|Relacionamento REQ.      | StakeHolder   |RF-01 | RF-02 |RF-03 |RF-04 |RF-05 |RF-06 |RF-07 |
+|-------------------------|---------------|------|-------|------|------|------|------|------|
+|Stakeholder              |               |    x  |       |      |      |      |      |      | 
+|RF-01                    |               |      |    x   |   x   |  x    |   x   |   x   | x     | 
+|RF-02                    |               |   x   |   x    |     x |  x    |  x    |  x    | x     | 
+|RF-03                    |               |      |    x   |  x    |      |      |      |      | 
+|RF-04                    |               |      |    x   |   x   |   x   |      |      |      | 
+|RF-05                    |               |      |    x   |      |      |   x   |      |      | 
+|RF-06                    |               |      |   x    |      |      |      |    x  |      | 
+|RF-07                    |               |      |   x    |      |      |      |      |   x   | 
 
 
 # Gerenciamento de Projeto
@@ -154,11 +137,10 @@ De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar 
 
 Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o gerente de projetos agenda e coordena tarefas dentro de um projeto para estimar o tempo necessário de conclusão.
 
-![Diagrama de rede simplificado notação francesa (método francês)](img/02-diagrama-rede-simplificado.png)
 
 O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
 
-![Gráfico de Gantt](img/02-grafico-gantt.png)
+![Gráfico de Gantt](img/grafico_gant.jpg)
 
 ## Gerenciamento de Equipe
 
