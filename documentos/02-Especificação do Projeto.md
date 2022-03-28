@@ -5,7 +5,7 @@
 Para que o projeto em desenvolvimento seja efetivo e resolutivo quanto às demandas do usuário, foi levantado, por meio de entrevistas realizadas por uma integrante do grupo com possíveis usuários da aplicação, os desejos e frustrações desses. Esses dados coletados foram explicitados na forma de personas para auxiliar-nos com um melhor desenho do projeto.
 
 ## Personas
- 
+
  Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
