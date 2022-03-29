@@ -1,155 +1,54 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+Para que o projeto em desenvolvimento seja efetivo e resolutivo quanto às demandas do usuário, foi levantado, por meio de entrevistas realizadas por uma integrante do grupo com possíveis usuários da aplicação, os desejos e frustrações desses. Esses dados coletados foram explicitados na forma de personas para auxiliar-nos com um melhor desenho do projeto.
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+A partir das entrevistas, foram definidas as personas representadas a seguir:
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+![image](https://user-images.githubusercontent.com/91228646/160646123-4ef0d237-6fdc-4939-9a97-83076ae75123.png)
+![image](https://user-images.githubusercontent.com/91228646/160646480-5af5e334-8e1d-4f43-a526-41dd773942a4.png)
+![image](https://user-images.githubusercontent.com/91228646/160647241-fc1cf889-197e-42e7-8f32-8f25d211e454.png)
+![image](https://user-images.githubusercontent.com/91228646/160646755-e46c0b60-f92d-4762-a99e-bf09927919b6.png)
 
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
-
-## Modelagem do Processo de Negócio 
-
-### Análise da Situação Atual
-
-Apresente aqui os problemas existentes que viabilizam sua proposta. Apresente o modelo do sistema como ele funciona hoje. Caso sua proposta seja inovadora e não existam processos claramente definidos, apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente, mesmo que não se utilize tecnologia computacional. 
-
-### Descrição Geral da Proposta
-
-Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
-
-### Processo 1 – NOME DO PROCESSO
-
-Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN. 
-
-![Processo 1](img/02-bpmn-proc1.png)
-
-### Processo 2 – NOME DO PROCESSO
-
-Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
-
-![Processo 2](img/02-bpmn-proc2.png)
-
-## Indicadores de Desempenho
-
-Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Colocar no mínimo 5 indicadores. 
-
-Usar o seguinte modelo: 
-
-![Indicadores de Desempenho](img/02-indic-desemp.png)
-Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe a ser apresentado a posteriori. 
+![image](https://user-images.githubusercontent.com/91228646/160647602-ca60e0c9-a981-4cc7-80cc-1353df38a338.png)
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, aplicar uma técnica de priorização de requisitos e detalhar como a técnica foi aplicada.
+De acordo com Canguçu (2021), “requisito é a propriedade que um software exibe para solucionar problemas reais, é a conjuntura indispensável para satisfazer um objeto”. Nessa perspectiva, apresentaremos, nesta seção, as propriedades que descrevem a interação entre nossa aplicação e o usuário. Primeiramente, há a descrição dos requisitos funcionais, isto é, do agrupamento de funcionalidades que compõem nossa aplicação. Em seguida, há a descrição dos requisitos não funcionais, ou seja, aqueles “relacionados ao uso da aplicação em termos de desempenho, usabilidade, confiabilidade, disponibilidade, segurança e tecnologias envolvidas” (CANGUÇU, 2021).  
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Usuário deve poder realizar um cadastro e login no aplicativo  | ALTA | 
-|RF-002| Usuário deve poder visualizar as últimas mensagens/ posts na home page.   | ALTA |
-|RF-003| O Comerciante deve poder postar novidades e ofertas do seu estabelecimento.  | ALTA | 
-|RF-004| Usuário deve poder inserir e trocar mensagens com o comerciante via comentários da mensagem.   | ALTA | 
-|RF-005| Usuários podem marcar como fakenews um post.   | MÉDIA | 
-|RF-006| Usuário poderá filtrar por bairro as notícias.   | MÉDIA | 
-|RF-007| Usuário poderá filtrar por tipo de notícia: promoção, evento, utilidade pública.   | MÉDIA | 
+A seguir, apresentamos uma tabela que reúne e identifica os requisitos funcionais do projeto, bem como indica a prioridade em que esses devem ser executados. 
+
+![image](https://user-images.githubusercontent.com/91228646/160648408-5422b587-5335-4804-b5ef-ca5f85a68434.png)
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O aplicativo deverá ser thinclient.  | ALTA | 
-|RNF-002| O aplicativo deverá ter uma fonte padrão para todas as escritas, com alterações apenas no tamanho. |  ALTA | 
-|RNF-003| O aplicativo deve ser compatível com os principais dispositivos móveis do mercado.   | ALTA | 
+A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender. 
 
-
-## Restrições
-
-O projeto está restrito pelos itens apresentados na tabela a seguir.
-
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
-
-## Diagrama de Casos de Uso
-
-![Diagrama de Entidade Relacionamento](img/Diagrama_casoDeUso.jpg)
+![image](https://user-images.githubusercontent.com/91228646/160648699-bb426d96-4365-4987-b9c2-e0f523279f61.png)
 
 # Matriz de Rastreabilidade
 
-|Relacionamento REQ.      | StakeHolder   |RF-01 | RF-02 |RF-03 |RF-04 |RF-05 |RF-06 |RF-07 |
-|-------------------------|---------------|------|-------|------|------|------|------|------|
-|Stakeholder              |               |    x  |       |      |      |      |      |      | 
-|RF-01                    |               |      |    x   |   x   |  x    |   x   |   x   | x     | 
-|RF-02                    |               |   x   |   x    |     x |  x    |  x    |  x    | x     | 
-|RF-03                    |               |      |    x   |  x    |      |      |      |      | 
-|RF-04                    |               |      |    x   |   x   |   x   |      |      |      | 
-|RF-05                    |               |      |    x   |      |      |   x   |      |      | 
-|RF-06                    |               |      |   x    |      |      |      |    x  |      | 
-|RF-07                    |               |      |   x    |      |      |      |      |   x   | 
+![image](https://user-images.githubusercontent.com/91228646/160649604-4eb4c194-c117-4019-9049-84ec6cc08abe.png)
 
+## Diagrama de Casos de Uso
 
-# Gerenciamento de Projeto
+![image](https://user-images.githubusercontent.com/91228646/160649974-1d8abb70-d3cd-43d2-8b0e-bfe116a5a4d4.png)
 
-De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar projetos, e que caracterizam a multidisciplinaridade envolvida, são: Integração, Escopo, Cronograma (Tempo), Custos, Qualidade, Recursos, Comunicações, Riscos, Aquisições, Partes Interessadas. Para desenvolver projetos um profissional deve se preocupar em gerenciar todas essas dez áreas. Elas se complementam e se relacionam, de tal forma que não se deve apenas examinar uma área de forma estanque. É preciso considerar, por exemplo, que as áreas de Escopo, Cronograma e Custos estão muito relacionadas. Assim, se eu amplio o escopo de um projeto eu posso afetar seu cronograma e seus custos.
+# Diagrama de Entidades e Relacionamento
 
-## Gerenciamento de Tempo
+O desenvolvimento do aplicativo, assim como a ideia inicial, tem como propósito a troca de informações através de mensagens. Com isso em mente, podemos analisar o diagrama a seguir onde, uma pessoa pode logar no sistema criando um usuário. Um usuário pode realizar postagens de muitas mensagens, assim como um usuário também pode realizar vários comentários. Uma mensagem pode ter vários comentários. E por último, um usuário pode ter vários grupos de bairros, assim como um bairro pode receber várias mensagens. Com base nesse diagrama o desenvolvimento da persistência de dados no banco será desenvolvido. 
 
-Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o gerente de projetos agenda e coordena tarefas dentro de um projeto para estimar o tempo necessário de conclusão.
+![image](https://user-images.githubusercontent.com/91228646/160650857-223d238c-4502-480c-992a-a86cc4f08f82.png)
 
+## Gerenciamento e Planejamento de Cronograma, Custo e Pessoal do Projeto
 
-O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
+![image](https://user-images.githubusercontent.com/91228646/160651344-8f1fc5c8-223d-4698-9c70-71c064086526.png)
 
-![Gráfico de Gantt](img/grafico_gant.jpg)
-
-## Gerenciamento de Equipe
-
-O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. 
-
-![Simple Project Timeline](img/02-project-timeline.png)
-
-## Gestão de Orçamento
-
-O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo.
-
-![Orçamento](img/02-orcamento.png)
+![image](https://user-images.githubusercontent.com/91228646/160651722-cb71f178-fbfd-4f95-b6c2-3994f6d0a1c4.png)
